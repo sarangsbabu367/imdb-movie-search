@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "imdb-movie-search"
+version = "0.1.0"
+description = ""
+authors = ["sarang s babu <sarangsbabu367@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+beautifulsoup4 = "^4.12.2"
+asyncclick = "^8.1.3.4"
+anyio = "^4.2.0"
+pytest-asyncio = "^0.23.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+coverage = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
